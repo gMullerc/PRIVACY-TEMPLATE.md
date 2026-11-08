@@ -1,6 +1,6 @@
 # Política de privacidade — Sinônimos
 
-**Última atualização: 18 de outubro de 2026**
+**Última atualização: 8 de novembro de 2026**
 
 O aplicativo Sinônimos é oferecido pela Muller Labs. Esta política explica quais dados são usados pelo app, para que servem e como solicitar sua exclusão.
 
@@ -22,11 +22,15 @@ Usamos esses dados para autenticar e manter sua conta, sincronizar seu progresso
 
 Google Sign-In, Firebase Authentication e Cloud Firestore, serviços operados pelo Google, processam dados para autenticação e armazenamento do app. O Firebase pode processar informações técnicas, como endereço IP, para segurança, prevenção de abuso e operação dos serviços. Consulte também a [Política de Privacidade do Google](https://policies.google.com/privacy).
 
-Não vendemos dados pessoais. A versão atual do Sinônimos não exibe anúncios, não integra o Google AdMob e não usa dados de localização para publicidade.
+Não vendemos dados pessoais. A partir da versão 1.0.2, o Sinônimos integra o Google AdMob para apresentar anúncios entre partidas e uma segunda chance opcional por anúncio recompensado. As versões 1.0.1 e anteriores que foram publicadas sem anúncios continuam sem essa integração.
+
+O Google Mobile Ads SDK pode coletar e compartilhar endereço IP (usado para estimar localização aproximada), interações com o app e anúncios, informações de diagnóstico e desempenho, e identificadores do dispositivo, como o ID de publicidade do Android e o App Set ID. O Google utiliza essas informações para publicidade, medição e análise, segurança e prevenção de fraude. Não solicitamos permissão de localização precisa. Consulte a [documentação de dados do SDK](https://developers.google.com/admob/android/privacy/play-data-disclosure) e [como o Google usa dados de apps parceiros](https://policies.google.com/technologies/partner-sites).
+
+Antes de solicitar anúncios, o app consulta a plataforma de consentimento do Google (UMP), que apresenta as escolhas exigidas na sua região. Quando exigido, você pode rever ou retirar suas escolhas em **Configurações → Opções de privacidade dos anúncios**. Também pode redefinir ou excluir o ID de publicidade nas configurações do Android. Recusar personalização não impede necessariamente anúncios limitados ou não personalizados, conforme as escolhas e regras aplicáveis. O jogo funciona sem login e sem depender do carregamento de anúncios.
 
 ## Segurança e retenção
 
-Os dados transmitidos entre o app e os serviços Firebase são protegidos por HTTPS. Mantemos os dados associados à conta enquanto ela estiver ativa e os removemos quando a solicitação de exclusão for concluída, respeitado o prazo acima. Os dados locais permanecem no aparelho até que você limpe os dados do app ou o desinstale.
+Os dados transmitidos entre o app e os serviços Firebase e Google Mobile Ads são criptografados em trânsito (HTTPS/TLS). A retenção e os controles dos dados processados pelo Google para anúncios seguem suas políticas e as escolhas disponíveis nos serviços Google. Mantemos os dados associados à conta enquanto ela estiver ativa e os removemos quando a solicitação de exclusão for concluída, respeitado o prazo acima. Os dados locais permanecem no aparelho até que você limpe os dados do app ou o desinstale.
 
 ## Crianças
 
